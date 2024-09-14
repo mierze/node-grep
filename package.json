@@ -1,0 +1,22 @@
+{
+  "name": "grep",
+  "version": "1.0.0",
+  "description": "implementing a nodejs grep",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "grep"
+  ],
+  "author": "brett stetson",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "exec": "^0.2.1",
+    "mocha": "^10.7.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
